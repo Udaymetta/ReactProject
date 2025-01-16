@@ -1,0 +1,40 @@
+.techStack {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: violet;
+    align-items: center;
+    padding: 2rem 30rem;
+    margin: auto;
+}
+
+.techStack li{
+    list-style-type: none;
+}
+
+li button {
+    font-weight: bold;
+    font-size: 20px;
+    border-style: none;
+    background-color: transparent;
+    padding:  10px 10px;
+    text-align: center;
+}
+
+.btn-active{
+   background-color: black;
+   color: aliceblue;
+   border-radius: 10px;
+}
+
+.techDescBlock{
+    text-align: center;
+    list-style-type: none;
+    padding: 30px;
+    background-color: black;
+    color: wheat;
+    border-top: 1px solid black;
+}
+
+.techDescription{
+    padding: 10px;
+}
