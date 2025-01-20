@@ -1,0 +1,9 @@
+.log-container {
+    color: aliceblue;
+    text-align: center;
+    padding: 25px;
+}
+
+.log-container p {
+    padding: 5px;
+}
