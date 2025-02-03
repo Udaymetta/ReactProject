@@ -8,7 +8,7 @@ const App = () => {
   const [logData,setLogData] = useState([]);
   const[invest, setInvest] = useState(
     {
-      "intial investment": null,
+      "initial investment": null,
       "annual investment": null,
       "expected return": null,
       "duration": null
@@ -23,7 +23,7 @@ const App = () => {
     });
   }
   function calculate(investDetails){
-    var investedCapitalval = investDetails['intial investment'];
+    var investedCapitalval = investDetails['initial investment'];
     var investmentValueVal = investedCapitalval;
     let interest = 0;
     let data = [];

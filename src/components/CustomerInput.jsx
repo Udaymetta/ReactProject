@@ -4,7 +4,7 @@ const CustomerInput = ({handle, data}) => {
     return (
         <form className="details-sec">
             <div>
-            <Inputs name="intial investment" handleChange = {handle} val = {data}/>
+            <Inputs name="initial investment" handleChange = {handle} val = {data}/>
             <Inputs name="expected return" handleChange = {handle} val = {data}/>
             </div>
             <div>
