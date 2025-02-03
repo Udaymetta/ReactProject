@@ -1,7 +1,7 @@
 import { isDisabled } from '@testing-library/user-event/dist/utils';
 import './game.css';
 
-const GameBox = ({exec, board}) => {
+const GameBox = ({exec, board, winner}) => {
 
     return(
         <div className="game">
@@ -11,7 +11,7 @@ const GameBox = ({exec, board}) => {
                     <ol className='game-set'>
                         {row.map((playerSymbol, colIndex) => { return(
                             <li className = {`game-data`} key={colIndex}> 
-                                <button onClick={() => exec(rowIndex, colIndex)} disabled={playerSymbol != null}>{playerSymbol}</button>
+                                <button onClick={() => exec(rowIndex, colIndex)} disabled={playerSymbol != null || winner != null}>{playerSymbol}</button>
                             </li>
                         )})}
                     </ol>
