@@ -1,0 +1,97 @@
+body {
+    background: radial-gradient(#747474, #c9f3de);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.game-page{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.welcome-text{
+    font-size: 40px;
+}
+
+.description{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.instructions{
+    list-style-position: inside;
+    color: brown;
+    /* margin-top: 100px; */
+    font-size: 30px;
+    font-weight: bold;
+    list-style: symbols();
+}
+
+.instructions  li {
+    padding-top: 1rem;
+}
+
+.play-btn{
+    margin-top: 70px;
+    width: 200px;
+    height: 100px;
+    font-size: 25px;
+    background-color: tan;
+}
+
+.game-container{
+    background: radial-gradient(lightYellow, yellow);
+    margin: 5rem;
+    display: gird;
+    place-items: center;
+    position: relative;
+    /* height: 100vh;  */
+    text-align: center;
+     border-radius: 50px;
+     box-shadow: 5px 5px 15px 5px black;
+}
+
+.game-table{
+   
+    font-size: 25px;
+    border-spacing: 50px; /* gap between both rows and columns */
+    border-collapse: separate;
+
+}
+
+input  {
+width: 200px;
+height: 30px;
+border: none;
+background-color: transparent;
+border-bottom: 1px solid black;
+box-shadow: none;
+outline: none;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+}
+
+.answered {
+    width: 100px;
+    height: auto;
+    padding: 0 20px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.answered .yes {
+    background-color: green;
+}
+
+.answered .no {
+    background-color: red;
+}
