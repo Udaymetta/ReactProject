@@ -83,7 +83,7 @@ const Main = () => {
                
                  <u><p className="description" >Instructions</p></u>
             <ol className="instructions">
-                <li>Please turn on your camera on</li>
+                <li>Please turn your camera on</li>
                 <li>There are total 32 tongue twisters in the list</li>
                 <li>One Person can pick any 2 twisters from the list by choosing the random id's</li>
                 <li>On picking up the twister, it should be said repeatedly for 3 times</li>
